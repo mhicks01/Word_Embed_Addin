@@ -1,0 +1,62 @@
+﻿/* Page-specific styling */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 40px; /* bottom = footer height */
+}
+
+.header {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+
+.padding {
+    position: relative;
+    padding: 15px;
+}
+
+.paddingBefore {
+    padding: 0px;
+}
+
+.paddingAfter {
+    padding: 27px;
+}
+
+.paddingBeforeBTN1 {
+    padding: 2px;
+}
+
+.paddingAfterBTN2 {
+    padding: 2px;
+}
+
+#notification-popup.MessageBanner {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: left;
+    height: inherit;
+    min-width: inherit;
+}
+
+#notification-popup .MessageBanner-text {
+    margin: 0;
+    padding: 18px 15px;
+    min-width: inherit;
+}
